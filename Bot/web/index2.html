@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Home</title>
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="Assets/css/materialize.min.css">
+        <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
+    </head>
+    <body>
+
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper light-blue lighten-1"><a href="#" class="brand-logo center" style="font-family: 'Pacifico', cursive;">GenBot</a>
+                    <div class="side-nav" id="genbot-menu">
+                        <div class="card" style="margin: 0;">
+                            <div class="card-image">
+                                <img src="Assets/images/bot.jpg">
+                                <span class="card-title">GenBot</span>
+                            </div>
+                        </div>
+                        <ul>
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">PlayGround</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                    <ul class="left">
+                        <li><a href="#" data-activates="genbot-menu" class="waves-effect waves-light menu-toggler"><i class="mdi-action-list"></i></a></li>
+                    </ul>
+
+                    <ul class="right hide-on-med-and-down" style="padding: 8px">
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">SignUp</a></li>
+
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+
+        <!--<div class="io-background">
+            </div>-->
+        <div class="back">
+            <div class="bot-panal">
+                <div class="inner-panal">
+                    <div class="row">
+                        <div class="col-md-12 text-center innerHead">
+                            <h1>My Bots</h1>
+                            <p>Click on the name of your bot to start using The Editor.</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+        <script type="text/javascript" src="Assets/js/jquery-2.1.4.min.js"></script>
+        <script type="text/javascript" src="Assets/js/materialize.js"></script>
+        <script>
+            $(window).load(function () {
+                $('#loading').hide();
+            });
+            $(function () {
+                $('.menu-toggler').sideNav();
+                //$('select').material_select();
+            });
+        </script>
+    </body>
+</html>
+

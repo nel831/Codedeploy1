@@ -1,0 +1,205 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 10, 2015, 10:09:27 AM
+    Author     : GenBot
+*/
+
+/* ChatBot Styling *
+
+/*basic reset*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#loading {
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    display: block;
+    opacity: 0.7;
+    background-color: #263238;
+    /*background-color: #3F51B5;*/
+    z-index: 9999;
+    text-align: center;
+}
+
+.loader {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.loader > .ball {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    -webkit-animation: motion 3s ease-in infinite;
+}
+
+.loader > p {
+    color: #fff;
+    margin-top: 5px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    font-size: 10px;
+
+}
+
+@-webkit-keyframes motion{
+    0% {
+        -webkit-transform: translateX(0) scale(1);
+    }
+    25% {
+        -webkit-transform: translateX(-50px) scale(0.3);
+    }
+    50% {
+        -webkit-transform: translateX(0) scale(1);
+    }
+    75% {
+        -webkit-transform: translateX(50px) scale(0.3);
+    }
+    100% {
+        -webkit-transform: translateX(0) scale(1);
+    }
+}
+
+body {
+    background-color: #E0E0E0;
+    /*    background: url('../images/bg.jpg');
+        background-size: cover;*/
+}
+
+#register {
+    display: none;
+}
+
+.helper {
+    display: block;
+    position: absolute;
+    top: 50px;
+    font-size: 12px;
+    right: 0.75rem;
+    transition: .2s opacity ease-out, .2s color ease-out;
+}
+
+.error {
+    color: #F44336 !important;
+}
+
+.success {
+    color: #26A69A !important;
+}
+
+.input-error {
+    border-bottom: 1px solid #F44336 !important;
+    box-shadow: 0 1px 0 0 #F44336 !important;
+}
+
+.icon-error {
+    color: #F44336 !important;
+}
+
+.label-error {
+    color: #F44336 !important;
+}
+
+.input-success {
+    border-bottom: 1px solid #26A69A !important;
+    box-shadow: 0 1px 0 0 #26A69A !important;
+}
+
+.icon-success {
+    color: #26A69A !important;
+}
+
+.label-success {
+    color: #26A69A !important;
+}
+.cover__container{
+    width:700px;
+    margin-right:auto;
+    margin-left:auto;
+    padding-left:20px;
+    padding-right:20px;
+}
+.global-text-color{
+    color:#fff;
+}
+.opac-btn:hover{
+    background:rgba(255,255,255,1);
+}
+.opac-btn{
+    background:rgba(255,255,255,.7);
+    color:#000;
+    font-size:20px;
+    border:2px double #fff;
+}
+
+.body-content{
+    margin:25px auto 30px;
+    font-size:50px;
+    text-shadow:2px 2px 2px rgba(0,0,0,.8);
+    color:royalblue;
+    padding-bottom:10px;
+}
+.back {
+    background: linear-gradient(to bottom,#ff8f00 0%,#6200FF 100%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.bot-panal{
+    min-height: 560px;
+    box-sizing: border-box;
+    display: block;
+}
+.inner-panal{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 30px 30px 30px 30px;
+    font-size: 16px;
+}
+.inner-text{
+        position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+    
+}
+/*.io-background {
+    background-image: url(../images/bg-2.jpg);
+    background-position: center top;
+    background-size: cover;
+    -webkit-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+    -mox-box-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    -webkit-flex: 1 0 auto;
+    flex: 1 0 auto;
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    z-index: 1;
+}*/
+
+
