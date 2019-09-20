@@ -1,0 +1,14 @@
+version: 0.0
+os: linux
+files:
+   - source: /
+     destination: /opt/codedeploy-agent/deployment-root/b2d2deae-d32f-4b2c-a63b-10d6289210dc/d-A0KDNRUUO/deployment-archive/Bot
+permissions:
+   - object: /opt/codedeploy-agent/deployment-root/b2d2deae-d32f-4b2c-a63b-10d6289210dc/d-A0KDNRUUO/deployment-archive/Bot
+     pattern: "**"
+     owner: apache
+     group: apache
+     mode: 755
+     type:
+       - file
+overwrite: true
